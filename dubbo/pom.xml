@@ -20,7 +20,7 @@
     <parent>
         <groupId>com.alibaba.fescar</groupId>
         <artifactId>fescar-samples</artifactId>
-        <version>0.1.4-SNAPSHOT</version>
+        <version>0.1.4</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>fescar-samples-dubbo</artifactId>
@@ -67,6 +67,12 @@
         <dependency>
             <groupId>org.apache.curator</groupId>
             <artifactId>curator-recipes</artifactId>
+        </dependency>
+    
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>2.0.4.RELEASE</version>
         </dependency>
     </dependencies>
     <build>
