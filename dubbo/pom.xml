@@ -38,6 +38,12 @@
         <dependency>
             <groupId>com.alibaba.fescar</groupId>
             <artifactId>fescar-dubbo</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>spring</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>com.101tec</groupId>
