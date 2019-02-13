@@ -31,7 +31,7 @@
         <property name="password" value="${jdbc.account.password}"/>
         <property name="driverClassName" value="${jdbc.account.driver}"/>
         <property name="initialSize" value="0" />
-        <property name="maxActive" value="180" />
+        <property name="maxActive" value="${jdbc.account.pool.size}" />
         <property name="minIdle" value="0" />
         <property name="maxWait" value="60000" />
         <property name="validationQuery" value="Select 'x' from DUAL" />
